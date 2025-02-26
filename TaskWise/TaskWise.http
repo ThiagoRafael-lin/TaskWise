@@ -1,0 +1,6 @@
+@TaskWise_HostAddress = http://localhost:5161
+
+GET {{TaskWise_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
