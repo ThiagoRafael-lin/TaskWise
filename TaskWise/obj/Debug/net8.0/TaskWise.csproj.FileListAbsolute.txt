@@ -169,3 +169,4 @@ C:\Users\thiag\Desktop\TaskWise\TaskWise\obj\Debug\net8.0\refint\TaskWise.dll
 C:\Users\thiag\Desktop\TaskWise\TaskWise\obj\Debug\net8.0\TaskWise.pdb
 C:\Users\thiag\Desktop\TaskWise\TaskWise\obj\Debug\net8.0\TaskWise.genruntimeconfig.cache
 C:\Users\thiag\Desktop\TaskWise\TaskWise\obj\Debug\net8.0\ref\TaskWise.dll
+C:\Users\thiag\Desktop\TaskWise\TaskWise\bin\Debug\net8.0\BCrypt.Net-Next.dll

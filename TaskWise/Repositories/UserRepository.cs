@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using TaskWise.Data;
 using TaskWise.Models;
 using TaskWise.Repositories.Interfaces;
+using TaskWise.Utils;
 
 namespace TaskWise.Repositories
 {
@@ -17,9 +18,20 @@ namespace TaskWise.Repositories
 
         public async Task<UserModel> CreateUser(UserModel userModel)
         {
-             await _dbContext.User.AddAsync(userModel);
-            _dbContext.SaveChanges();
-            return userModel;
+            try
+            {
+                userModel.Password = Encryption.GenerateHash(userModel.Password!);
+
+                await _dbContext.AddAsync(userModel);
+                _dbContext.SaveChanges();
+                return userModel;
+
+            }
+            catch (Exception)
+            {
+
+                throw new Exception("Could not create your user");
+            }
             
         }
 
