@@ -1,9 +1,12 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using System.CodeDom.Compiler;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using TaskWise.Data;
 using TaskWise.Models;
 
 namespace TaskWise.Controllers
@@ -12,39 +15,62 @@ namespace TaskWise.Controllers
     [ApiController]
     public class ContaController : ControllerBase
     {
-        [HttpPost]
+        private readonly TaskWiseDBContext _dbContext;
+        private readonly IConfiguration _config;
 
-        public IActionResult Login([FromBody] LoginModel login)
+        public ContaController(TaskWiseDBContext taskWiseDBContext)
         {
-            if (login.Login == "admin" && login.Password == "admin")
-            {
-                var token = GerarTokenJWT();
-                return Ok(new { token });
-            }
-
-            return BadRequest(new { message = "Credenciais inválidas. Por favor, verifique seu nome de usuário e senha." });
+            _dbContext = taskWiseDBContext;
         }
 
-        private string GerarTokenJWT()
+        [HttpPost("Register")]
+
+        public async Task<IActionResult> Register(UserRegisterModel request)
         {
-            string chaveSecreta = "57bb807a-5df7-47d4-b2d4-c3e6d9ea382d";
+            if (_dbContext.User.Any(u => u.Email == request.Email))
+                return BadRequest("email is already in use");
+            var user = new UserModel
 
-            var chave = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(chaveSecreta));
-            var credencial = new SigningCredentials(chave, SecurityAlgorithms.HmacSha256);
-
-            var claims = new[]
             {
-                new Claim("login", "admin"),
-                new Claim("nome", "Administrador do Sistema")
+                Name = request.Name,
+                Email = request.Email,
+                Password = BCrypt.Net.BCrypt.HashPassword(request.Password)
             };
 
+            await _dbContext.User.AddAsync(user);
+            await _dbContext.SaveChangesAsync();
+            return Ok(user);
+        }
+
+        [HttpPost("Login")]
+        public async Task<IActionResult> Login (UserLoginModel request)
+        {
+            var user = await _dbContext.User.FirstOrDefaultAsync(u => u.Email == request.Email);
+            if (user == null || !BCrypt.Net.BCrypt.Verify(request.Password, user.Password))
+                return Unauthorized("invalid credentials.");
+
+            var token = GerarTokenJWT(user);
+            return Ok(new {token});
+           
+        }
+        private string GerarTokenJWT(UserModel user)
+        {
+            var claims = new List<Claim>
+            {
+                new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
+                new Claim(ClaimTypes.Name, user.Name),
+                new Claim(ClaimTypes.Email, user.Email)
+
+            };
+
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
+            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
             var token = new JwtSecurityToken(
-                issuer: "sua_empresa",
-                audience: "sua_aplicacao",
-                claims: claims,
-                expires: DateTime.Now.AddHours(3),
-                signingCredentials: credencial
-            );
+                _config["Jwt:Issuer"],
+                _config["Jwt:Audience"],
+                claims,
+                expires: DateTime.UtcNow.AddDays(2),
+                signingCredentials: creds);
 
             return new JwtSecurityTokenHandler().WriteToken(token);
 

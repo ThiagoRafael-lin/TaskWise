@@ -6,7 +6,7 @@ using TaskWise.Repositories.Interfaces;
 
 namespace TaskWise.Controllers
 {
-    [Authorize]
+
     [Route("api/[controller]")]
     [ApiController]
     public class UserController : ControllerBase
