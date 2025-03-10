@@ -6,7 +6,7 @@ using TaskWise.Repositories.Interfaces;
 
 namespace TaskWise.Controllers
 {
-
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class UserController : ControllerBase
@@ -33,12 +33,12 @@ namespace TaskWise.Controllers
             return await _userRepository.ListUserId(userId);
         }
 
-        [HttpPost]
+        //[HttpPost]
 
-        public async Task<UserModel> CreateUser(UserModel userModel)
-        {
-            return await _userRepository.CreateUser(userModel);
-        }
+        //public async Task<UserModel> CreateUser(UserModel userModel)
+        //{
+        //    return await _userRepository.CreateUser(userModel);
+        //}
 
         [HttpPut("{userId}")]
 

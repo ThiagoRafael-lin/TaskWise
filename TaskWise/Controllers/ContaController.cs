@@ -18,10 +18,12 @@ namespace TaskWise.Controllers
         private readonly TaskWiseDBContext _dbContext;
         private readonly IConfiguration _config;
 
-        public ContaController(TaskWiseDBContext taskWiseDBContext)
+        public ContaController(TaskWiseDBContext taskWiseDBContext, IConfiguration configuration)
         {
             _dbContext = taskWiseDBContext;
+            _config = configuration;
         }
+
 
         [HttpPost("Register")]
 
