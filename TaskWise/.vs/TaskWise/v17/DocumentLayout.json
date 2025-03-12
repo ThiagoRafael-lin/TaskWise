@@ -3,6 +3,34 @@
   "WorkspaceRootPath": "C:\\Users\\thiag\\Desktop\\TaskWise\\TaskWise\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2E40BBBD-66C7-4DDD-B99C-03636C9191D6}|TaskWise.csproj|c:\\users\\thiag\\desktop\\taskwise\\taskwise\\repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E40BBBD-66C7-4DDD-B99C-03636C9191D6}|TaskWise.csproj|solutionrelative:repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E40BBBD-66C7-4DDD-B99C-03636C9191D6}|TaskWise.csproj|c:\\users\\thiag\\desktop\\taskwise\\taskwise\\models\\tasksmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E40BBBD-66C7-4DDD-B99C-03636C9191D6}|TaskWise.csproj|solutionrelative:models\\tasksmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E40BBBD-66C7-4DDD-B99C-03636C9191D6}|TaskWise.csproj|c:\\users\\thiag\\desktop\\taskwise\\taskwise\\repositories\\interfaces\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E40BBBD-66C7-4DDD-B99C-03636C9191D6}|TaskWise.csproj|solutionrelative:repositories\\interfaces\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E40BBBD-66C7-4DDD-B99C-03636C9191D6}|TaskWise.csproj|c:\\users\\thiag\\desktop\\taskwise\\taskwise\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E40BBBD-66C7-4DDD-B99C-03636C9191D6}|TaskWise.csproj|solutionrelative:repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E40BBBD-66C7-4DDD-B99C-03636C9191D6}|TaskWise.csproj|c:\\users\\thiag\\desktop\\taskwise\\taskwise\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E40BBBD-66C7-4DDD-B99C-03636C9191D6}|TaskWise.csproj|solutionrelative:repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E40BBBD-66C7-4DDD-B99C-03636C9191D6}|TaskWise.csproj|c:\\users\\thiag\\desktop\\taskwise\\taskwise\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E40BBBD-66C7-4DDD-B99C-03636C9191D6}|TaskWise.csproj|solutionrelative:models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E40BBBD-66C7-4DDD-B99C-03636C9191D6}|TaskWise.csproj|c:\\users\\thiag\\desktop\\taskwise\\taskwise\\models\\userloginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E40BBBD-66C7-4DDD-B99C-03636C9191D6}|TaskWise.csproj|solutionrelative:models\\userloginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2E40BBBD-66C7-4DDD-B99C-03636C9191D6}|TaskWise.csproj|c:\\users\\thiag\\desktop\\taskwise\\taskwise\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E40BBBD-66C7-4DDD-B99C-03636C9191D6}|TaskWise.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,28 +55,12 @@
       "RelativeMoniker": "D:0:0:{2E40BBBD-66C7-4DDD-B99C-03636C9191D6}|TaskWise.csproj|solutionrelative:models\\userregistermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E40BBBD-66C7-4DDD-B99C-03636C9191D6}|TaskWise.csproj|c:\\users\\thiag\\desktop\\taskwise\\taskwise\\models\\userloginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E40BBBD-66C7-4DDD-B99C-03636C9191D6}|TaskWise.csproj|solutionrelative:models\\userloginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E40BBBD-66C7-4DDD-B99C-03636C9191D6}|TaskWise.csproj|c:\\users\\thiag\\desktop\\taskwise\\taskwise\\models\\tasksmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E40BBBD-66C7-4DDD-B99C-03636C9191D6}|TaskWise.csproj|solutionrelative:models\\tasksmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E40BBBD-66C7-4DDD-B99C-03636C9191D6}|TaskWise.csproj|c:\\users\\thiag\\desktop\\taskwise\\taskwise\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E40BBBD-66C7-4DDD-B99C-03636C9191D6}|TaskWise.csproj|solutionrelative:repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2E40BBBD-66C7-4DDD-B99C-03636C9191D6}|TaskWise.csproj|c:\\users\\thiag\\desktop\\taskwise\\taskwise\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E40BBBD-66C7-4DDD-B99C-03636C9191D6}|TaskWise.csproj|solutionrelative:models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2E40BBBD-66C7-4DDD-B99C-03636C9191D6}|TaskWise.csproj|c:\\users\\thiag\\desktop\\taskwise\\taskwise\\utils\\encryption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E40BBBD-66C7-4DDD-B99C-03636C9191D6}|TaskWise.csproj|solutionrelative:utils\\encryption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E40BBBD-66C7-4DDD-B99C-03636C9191D6}|TaskWise.csproj|c:\\users\\thiag\\desktop\\taskwise\\taskwise\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E40BBBD-66C7-4DDD-B99C-03636C9191D6}|TaskWise.csproj|solutionrelative:repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,70 +70,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "UserRegisterModel.cs",
-              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\TaskWise\\TaskWise\\Models\\UserRegisterModel.cs",
-              "RelativeDocumentMoniker": "Models\\UserRegisterModel.cs",
-              "ToolTip": "C:\\Users\\thiag\\Desktop\\TaskWise\\TaskWise\\Models\\UserRegisterModel.cs",
-              "RelativeToolTip": "Models\\UserRegisterModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\TaskWise\\TaskWise\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "Models\\UserModel.cs",
+              "ToolTip": "C:\\Users\\thiag\\Desktop\\TaskWise\\TaskWise\\Models\\UserModel.cs",
+              "RelativeToolTip": "Models\\UserModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T18:37:06.73Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\TaskWise\\TaskWise\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\thiag\\Desktop\\TaskWise\\TaskWise\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-26T19:37:31.928Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\TaskWise\\TaskWise\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\thiag\\Desktop\\TaskWise\\TaskWise\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAADkAAAAAAAAAAAAkwEoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T17:28:27.122Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ContaController.cs",
-              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\TaskWise\\TaskWise\\Controllers\\ContaController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ContaController.cs",
-              "ToolTip": "C:\\Users\\thiag\\Desktop\\TaskWise\\TaskWise\\Controllers\\ContaController.cs",
-              "RelativeToolTip": "Controllers\\ContaController.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAQwBsAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T17:31:57.708Z",
+              "WhenOpened": "2025-03-12T20:00:38.223Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\TaskWise\\TaskWise\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\thiag\\Desktop\\TaskWise\\TaskWise\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBMAAAAAAAAA",
+              "Title": "TaskRepository.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\TaskWise\\TaskWise\\Repositories\\TaskRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\TaskRepository.cs",
+              "ToolTip": "C:\\Users\\thiag\\Desktop\\TaskWise\\TaskWise\\Repositories\\TaskRepository.cs",
+              "RelativeToolTip": "Repositories\\TaskRepository.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwCoAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T18:30:52.583Z",
+              "WhenOpened": "2025-03-12T20:46:30.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ITaskRepository.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\TaskWise\\TaskWise\\Repositories\\Interfaces\\ITaskRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\ITaskRepository.cs",
+              "ToolTip": "C:\\Users\\thiag\\Desktop\\TaskWise\\TaskWise\\Repositories\\Interfaces\\ITaskRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\ITaskRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T19:59:02.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TasksModel.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\TaskWise\\TaskWise\\Models\\TasksModel.cs",
+              "RelativeDocumentMoniker": "Models\\TasksModel.cs",
+              "ToolTip": "C:\\Users\\thiag\\Desktop\\TaskWise\\TaskWise\\Models\\TasksModel.cs",
+              "RelativeToolTip": "Models\\TasksModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T17:49:18.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\TaskWise\\TaskWise\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\thiag\\Desktop\\TaskWise\\TaskWise\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Repositories\\UserRepository.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAwwDMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T17:49:53.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\TaskWise\\TaskWise\\Repositories\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\thiag\\Desktop\\TaskWise\\TaskWise\\Repositories\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T17:59:22.925Z",
               "EditorCaption": ""
             },
             {
@@ -134,23 +160,73 @@
               "RelativeToolTip": "Models\\UserLoginModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T18:39:02.744Z"
+              "WhenOpened": "2025-02-28T18:39:02.744Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "TasksModel.cs",
-              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\TaskWise\\TaskWise\\Models\\TasksModel.cs",
-              "RelativeDocumentMoniker": "Models\\TasksModel.cs",
-              "ToolTip": "C:\\Users\\thiag\\Desktop\\TaskWise\\TaskWise\\Models\\TasksModel.cs",
-              "RelativeToolTip": "Models\\TasksModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\TaskWise\\TaskWise\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\thiag\\Desktop\\TaskWise\\TaskWise\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwB0AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T17:49:18.503Z"
+              "WhenOpened": "2025-02-26T18:30:52.583Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
+              "Title": "ContaController.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\TaskWise\\TaskWise\\Controllers\\ContaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ContaController.cs",
+              "ToolTip": "C:\\Users\\thiag\\Desktop\\TaskWise\\TaskWise\\Controllers\\ContaController.cs",
+              "RelativeToolTip": "Controllers\\ContaController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwBsAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T17:31:57.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\TaskWise\\TaskWise\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\thiag\\Desktop\\TaskWise\\TaskWise\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAkwEoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T17:28:27.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\TaskWise\\TaskWise\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\thiag\\Desktop\\TaskWise\\TaskWise\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-26T19:37:31.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserRegisterModel.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\TaskWise\\TaskWise\\Models\\UserRegisterModel.cs",
+              "RelativeDocumentMoniker": "Models\\UserRegisterModel.cs",
+              "ToolTip": "C:\\Users\\thiag\\Desktop\\TaskWise\\TaskWise\\Models\\UserRegisterModel.cs",
+              "RelativeToolTip": "Models\\UserRegisterModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T18:37:06.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "TaskWiseDBContext.cs",
               "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\TaskWise\\TaskWise\\Data\\TaskWiseDBContext.cs",
               "RelativeDocumentMoniker": "Data\\TaskWiseDBContext.cs",
@@ -158,36 +234,11 @@
               "RelativeToolTip": "Data\\TaskWiseDBContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T17:51:40.09Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-26T17:51:40.09Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\TaskWise\\TaskWise\\Repositories\\Interfaces\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\thiag\\Desktop\\TaskWise\\TaskWise\\Repositories\\Interfaces\\IUserRepository.cs",
-              "RelativeToolTip": "Repositories\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T17:59:22.925Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\TaskWise\\TaskWise\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\thiag\\Desktop\\TaskWise\\TaskWise\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "Repositories\\UserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T17:49:53.129Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "Encryption.cs",
               "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\TaskWise\\TaskWise\\Utils\\Encryption.cs",
               "RelativeDocumentMoniker": "Utils\\Encryption.cs",
@@ -199,7 +250,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "LoginModel.cs",
               "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\TaskWise\\TaskWise\\Models\\LoginModel.cs",
               "RelativeDocumentMoniker": "Models\\LoginModel.cs",
