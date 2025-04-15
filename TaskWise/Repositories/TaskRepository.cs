@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.EntityFrameworkCore;
 using TaskWise.Data;
 using TaskWise.Models;
 using TaskWise.Repositories.Interfaces;
@@ -16,7 +17,18 @@ namespace TaskWise.Repositories
 
         public async Task<TasksModel> CreateTask(TasksModel taskModel)
         {
+
+            var user = await _dbContext.User.FindAsync(taskModel.UserId);
+
+            if (user == null)
+            {
+                throw new Exception("user not found");
+            }
+
+            taskModel.User = user;
+
             await _dbContext.AddAsync(taskModel);
+            await _dbContext.SaveChangesAsync();
             return taskModel;
         }
 

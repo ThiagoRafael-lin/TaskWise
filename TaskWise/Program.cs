@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
+using System.Text.Json.Serialization;
 using TaskWise.Data;
 using TaskWise.Repositories;
 using TaskWise.Repositories.Interfaces;
@@ -19,7 +20,11 @@ namespace TaskWise
             string secretKey = "f4284648-4f10-4ca2-ba8e-196ba052bda5";
 
             // Add services to the container.
-            builder.Services.AddControllers();
+            builder.Services.AddControllers()
+                .AddJsonOptions(options =>
+                {
+                    options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve;
+                });
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen(c =>
@@ -54,6 +59,7 @@ namespace TaskWise
             options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             builder.Services.AddScoped<IUserRepository, UserRepository>();
+            builder.Services.AddScoped<ITaskRepository, TaskRepository>();
 
             // Configuração de autenticação JWT
             builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)

@@ -52,7 +52,9 @@ namespace TaskWise.Repositories
 
         public async Task<List<UserModel>> ListAllUsers()
         {
-            return await _dbContext.User.ToListAsync();
+            return await _dbContext.User
+                .Include(u => u.Tasks)
+                .ToListAsync();
         }
 
         public async Task<UserModel> ListUserId(int userId)
