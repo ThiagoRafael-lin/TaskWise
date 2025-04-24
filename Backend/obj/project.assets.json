@@ -4982,11 +4982,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\thiag\\Desktop\\TaskWise\\TaskWise\\TaskWise.csproj",
+      "projectUniqueName": "C:\\Users\\thiag\\Desktop\\TaskWise\\Backend\\TaskWise.csproj",
       "projectName": "TaskWise",
-      "projectPath": "C:\\Users\\thiag\\Desktop\\TaskWise\\TaskWise\\TaskWise.csproj",
+      "projectPath": "C:\\Users\\thiag\\Desktop\\TaskWise\\Backend\\TaskWise.csproj",
       "packagesPath": "C:\\Users\\thiag\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\thiag\\Desktop\\TaskWise\\TaskWise\\obj\\",
+      "outputPath": "C:\\Users\\thiag\\Desktop\\TaskWise\\Backend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\thiag\\AppData\\Roaming\\NuGet\\NuGet.Config",

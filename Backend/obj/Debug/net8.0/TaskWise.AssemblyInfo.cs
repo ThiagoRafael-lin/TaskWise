@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TaskWise")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1708750c6703dbce855efc0c57f567492072a50c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b3cb7888b60a6f1928b4104cbce081f3f0ce7cac")]
 [assembly: System.Reflection.AssemblyProductAttribute("TaskWise")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TaskWise")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

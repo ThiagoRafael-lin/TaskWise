@@ -77,6 +77,14 @@ namespace TaskWise
         };
     });
 
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowMyOrigin",
+                    policy => policy.WithOrigins("http://localhost:3000")
+                    .AllowAnyMethod()
+                    .AllowAnyHeader());
+            });
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -87,6 +95,8 @@ namespace TaskWise
             }
 
             app.UseHttpsRedirection();
+
+            app.UseCors("AllowMyOrigin");
 
             app.UseAuthentication();
             app.UseAuthorization();
