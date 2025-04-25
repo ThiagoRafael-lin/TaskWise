@@ -20,6 +20,16 @@ export const Login = () => {
   const [name, setName] = useState("");
   const [password, setPassword] = useState("");
 
+  interface LoginResponse {
+    token: string;
+    user: {
+      id: string;
+      name: string;
+      email: string;
+      password: string;
+    };
+  }
+
   const handleNameChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setName(event.target.value);
   };
@@ -31,22 +41,6 @@ export const Login = () => {
   const handlePasswordChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setPassword(event.target.value);
   };
-
-  async function fetchLogin() {
-    console.log("requisição iniciada");
-
-    try {
-      console.log("metade");
-
-      const response = await api.get("/Conta/Login");
-
-      console.log("passo");
-
-      console.log(response);
-    } catch (error) {
-      console.log("Erro na requisição de Login", error);
-    }
-  }
 
   async function fetchRegister() {
     console.log("Iniciando requisição de registro");
@@ -68,6 +62,28 @@ export const Login = () => {
     }
   }
 
+  async function fetchLogin(e: React.FormEvent) {
+    e.preventDefault();
+    console.log("requisição iniciada");
+
+    try {
+      console.log("metade");
+
+      const response = await api.post<LoginResponse>("/Conta/Login", {
+        email,
+        password,
+      });
+
+      const { token } = response.data;
+
+      localStorage.setItem("token", token);
+
+      console.log("passo", response);
+    } catch (error) {
+      console.log("Erro na requisição de Login", error);
+    }
+  }
+
   return (
     <Tabs defaultValue="account" className="w-[400px]">
       <TabsList className="grid w-full grid-cols-2 bg-gray-900">
@@ -85,11 +101,21 @@ export const Login = () => {
           <CardContent className="space-y-2">
             <div className="space-y-1">
               <Label htmlFor="name">Email</Label>
-              <Input id="name" placeholder="Ex: Fernando@gmail.com" />
+              <Input
+                id="name"
+                placeholder="Ex: Fernando@gmail.com"
+                onChange={(e) => setEmail(e.target.value)}
+                value={email}
+              />
             </div>
             <div className="space-y-1">
               <Label htmlFor="username">Password</Label>
-              <Input id="username" placeholder="******" />
+              <Input
+                id="username"
+                placeholder="******"
+                onChange={(e) => setPassword(e.target.value)}
+                value={password}
+              />
             </div>
           </CardContent>
           <CardFooter>
@@ -120,6 +146,7 @@ export const Login = () => {
                 placeholder="Ex: Fernando"
                 value={name}
                 onChange={handleNameChange}
+                required
               />
             </div>
             <div className="space-y-1">
@@ -130,6 +157,7 @@ export const Login = () => {
                 placeholder="Ex: Fernando@gmail.com"
                 value={email}
                 onChange={handleEmailChange}
+                required
               />
             </div>
             <div className="space-y-1">
@@ -140,6 +168,7 @@ export const Login = () => {
                 placeholder="******"
                 value={password}
                 onChange={handlePasswordChange}
+                required
               />
             </div>
           </CardContent>
