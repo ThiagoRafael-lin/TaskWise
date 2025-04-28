@@ -1,9 +1,9 @@
-import { Login } from "@/components/login";
+import LoginScreen from "@/app/login-screen/page";
 
 export default function Home() {
   return (
     <div>
-      <Login />
+      <LoginScreen />
     </div>
   );
 }

@@ -14,6 +14,7 @@ import { Label } from "@/components/ui/label";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 import api from "@/config/axios";
+import { useRouter } from "next/navigation";
 
 export const Login = () => {
   const [email, setEmail] = useState("");
@@ -29,6 +30,8 @@ export const Login = () => {
       password: string;
     };
   }
+
+  const router = useRouter();
 
   const handleNameChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setName(event.target.value);
@@ -78,6 +81,8 @@ export const Login = () => {
 
       localStorage.setItem("token", token);
 
+      router.push("login-screen");
+
       console.log("passo", response);
     } catch (error) {
       console.log("Erro na requisição de Login", error);
@@ -86,7 +91,7 @@ export const Login = () => {
 
   return (
     <Tabs defaultValue="account" className="w-[400px]">
-      <TabsList className="grid w-full grid-cols-2 bg-gray-900">
+      <TabsList className="grid w-full grid-cols-2">
         <TabsTrigger value="account">Login</TabsTrigger>
         <TabsTrigger value="password">Register</TabsTrigger>
       </TabsList>
