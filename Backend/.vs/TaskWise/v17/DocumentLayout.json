@@ -38,20 +38,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TaskRepository.cs",
-              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\TaskWise\\Backend\\Repositories\\TaskRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\TaskRepository.cs",
-              "ToolTip": "C:\\Users\\thiag\\Desktop\\TaskWise\\Backend\\Repositories\\TaskRepository.cs",
-              "RelativeToolTip": "Repositories\\TaskRepository.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T17:55:51.707Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -64,6 +52,18 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-15T17:52:35.713Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaskRepository.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\TaskWise\\Backend\\Repositories\\TaskRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\TaskRepository.cs",
+              "ToolTip": "C:\\Users\\thiag\\Desktop\\TaskWise\\Backend\\Repositories\\TaskRepository.cs",
+              "RelativeToolTip": "Repositories\\TaskRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T17:55:51.707Z"
             },
             {
               "$type": "Document",
