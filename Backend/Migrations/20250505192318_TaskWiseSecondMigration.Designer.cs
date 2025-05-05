@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TaskWise.Data;
 
@@ -11,9 +12,11 @@ using TaskWise.Data;
 namespace TaskWise.Migrations
 {
     [DbContext(typeof(TaskWiseDBContext))]
-    partial class TaskWiseDBContextModelSnapshot : ModelSnapshot
+    [Migration("20250505192318_TaskWiseSecondMigration")]
+    partial class TaskWiseSecondMigration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

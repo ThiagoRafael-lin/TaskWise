@@ -26,6 +26,7 @@ export const Login = () => {
   const [nameError, setNameError] = useState("");
   const [password, setPassword] = useState("");
   const [passwordError, setPasswordError] = useState("");
+  const [succesMessage, setSucessMessage] = useState("");
 
   interface LoginResponse {
     token: string;
@@ -93,6 +94,7 @@ export const Login = () => {
       });
 
       console.log("Registro feito com sucessso", response);
+      setSucessMessage("registration done successfully");
 
       setName("");
       setEmail("");
@@ -260,6 +262,11 @@ export const Login = () => {
             >
               Create account
             </Button>
+            {succesMessage && (
+              <p style={{ color: "green", marginLeft: "10px" }}>
+                {succesMessage}
+              </p>
+            )}
           </CardFooter>
         </Card>
       </TabsContent>
