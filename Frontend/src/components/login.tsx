@@ -17,7 +17,6 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 import api from "@/config/axios";
 import { useRouter } from "next/navigation";
-import { AxiosError } from "axios";
 
 export const Login = () => {
   const [email, setEmail] = useState("");
@@ -93,8 +92,10 @@ export const Login = () => {
         password: password,
       });
 
-      console.log("Registro feito com sucessso", response);
+      console.log("Registro feito com sucessso", response.data);
       setSucessMessage("registration done successfully");
+
+      localStorage.setItem("userName", name);
 
       setName("");
       setEmail("");
@@ -144,7 +145,7 @@ export const Login = () => {
 
         router.push("home-screen");
 
-        console.log("passo", response);
+        console.log("Login feito com sucesso", response.data);
       } catch (error: any) {
         console.log("Erro na requisição de Login", error.response);
 

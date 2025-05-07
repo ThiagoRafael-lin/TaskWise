@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\thiag\\Desktop\\TaskWise\\Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\thiag\\Desktop\\TaskWise\\Backend\\Migrations\\20250505192318_TaskWiseSecondMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250505192318_TaskWiseSecondMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2E40BBBD-66C7-4DDD-B99C-03636C9191D6}|TaskWise.csproj|c:\\users\\thiag\\desktop\\taskwise\\backend\\migrations\\20250505192318_taskwisesecondmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E40BBBD-66C7-4DDD-B99C-03636C9191D6}|TaskWise.csproj|solutionrelative:migrations\\20250505192318_taskwisesecondmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2E40BBBD-66C7-4DDD-B99C-03636C9191D6}|TaskWise.csproj|c:\\users\\thiag\\desktop\\taskwise\\backend\\models\\tasksmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -91,8 +91,7 @@
               "RelativeToolTip": "Migrations\\TaskWiseDBContextModelSnapshot.cs",
               "ViewState": "AQIAADgAAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T19:17:20.409Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T19:17:20.409Z"
             },
             {
               "$type": "Document",
@@ -104,8 +103,7 @@
               "RelativeToolTip": "Repositories\\Interfaces\\IUserRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T17:43:24.227Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T17:43:24.227Z"
             },
             {
               "$type": "Document",
@@ -117,8 +115,7 @@
               "RelativeToolTip": "Models\\UserModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T17:37:05.202Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T17:37:05.202Z"
             },
             {
               "$type": "Document",
@@ -130,8 +127,7 @@
               "RelativeToolTip": "Models\\TasksModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwBQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T15:20:28.855Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T15:20:28.855Z"
             },
             {
               "$type": "Document",
@@ -143,8 +139,7 @@
               "RelativeToolTip": "Repositories\\UserRepository.cs",
               "ViewState": "AQIAAB4AAAAAAAAAAAAowDcAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T17:47:02.539Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T17:47:02.539Z"
             },
             {
               "$type": "Document",
@@ -156,8 +151,7 @@
               "RelativeToolTip": "Repositories\\Interfaces\\ITaskRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T19:17:05.993Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T19:17:05.993Z"
             },
             {
               "$type": "Document",
@@ -169,8 +163,7 @@
               "RelativeToolTip": "Models\\LoginModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T19:04:28.816Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T19:04:28.816Z"
             },
             {
               "$type": "Document",
@@ -182,8 +175,7 @@
               "RelativeToolTip": "Models\\UserRegisterModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T19:04:26.298Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T19:04:26.298Z"
             },
             {
               "$type": "Document",
@@ -195,8 +187,7 @@
               "RelativeToolTip": "Models\\UserLoginModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T19:04:23.851Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T19:04:23.851Z"
             },
             {
               "$type": "Document",
@@ -208,8 +199,7 @@
               "RelativeToolTip": "Controllers\\UserController.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T17:43:33.94Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T17:43:33.94Z"
             },
             {
               "$type": "Document",
@@ -221,8 +211,7 @@
               "RelativeToolTip": "Repositories\\TaskRepository.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAQwCsAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T17:55:51.707Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T17:55:51.707Z"
             },
             {
               "$type": "Document",
@@ -234,8 +223,7 @@
               "RelativeToolTip": "Controllers\\ContaController.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T19:05:37.213Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T19:05:37.213Z"
             },
             {
               "$type": "Document",
