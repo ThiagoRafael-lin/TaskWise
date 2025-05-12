@@ -159,7 +159,7 @@ export const Login = () => {
   }
 
   return (
-    <Tabs defaultValue="account" className="w-[400px]">
+    <Tabs defaultValue="account" className="w-[400px] font-comfortaa">
       <TabsList className="grid w-full grid-cols-2">
         <TabsTrigger value="account" className="hover:bg-gray-200">
           Login

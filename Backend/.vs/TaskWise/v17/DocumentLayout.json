@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\thiag\\Desktop\\TaskWise\\Backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2E40BBBD-66C7-4DDD-B99C-03636C9191D6}|TaskWise.csproj|c:\\users\\thiag\\desktop\\taskwise\\backend\\models\\userregistermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E40BBBD-66C7-4DDD-B99C-03636C9191D6}|TaskWise.csproj|solutionrelative:models\\userregistermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2E40BBBD-66C7-4DDD-B99C-03636C9191D6}|TaskWise.csproj|c:\\users\\thiag\\desktop\\taskwise\\backend\\migrations\\20250505192318_taskwisesecondmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E40BBBD-66C7-4DDD-B99C-03636C9191D6}|TaskWise.csproj|solutionrelative:migrations\\20250505192318_taskwisesecondmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2E40BBBD-66C7-4DDD-B99C-03636C9191D6}|TaskWise.csproj|c:\\users\\thiag\\desktop\\taskwise\\backend\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E40BBBD-66C7-4DDD-B99C-03636C9191D6}|TaskWise.csproj|solutionrelative:models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E40BBBD-66C7-4DDD-B99C-03636C9191D6}|TaskWise.csproj|c:\\users\\thiag\\desktop\\taskwise\\backend\\models\\userregistermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E40BBBD-66C7-4DDD-B99C-03636C9191D6}|TaskWise.csproj|solutionrelative:models\\userregistermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2E40BBBD-66C7-4DDD-B99C-03636C9191D6}|TaskWise.csproj|c:\\users\\thiag\\desktop\\taskwise\\backend\\repositories\\interfaces\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,33 +66,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20250505192318_TaskWiseSecondMigration.cs",
-              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\TaskWise\\Backend\\Migrations\\20250505192318_TaskWiseSecondMigration.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250505192318_TaskWiseSecondMigration.cs",
-              "ToolTip": "C:\\Users\\thiag\\Desktop\\TaskWise\\Backend\\Migrations\\20250505192318_TaskWiseSecondMigration.cs",
-              "RelativeToolTip": "Migrations\\20250505192318_TaskWiseSecondMigration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T19:23:18.809Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TaskWiseDBContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\TaskWise\\Backend\\Migrations\\TaskWiseDBContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Migrations\\TaskWiseDBContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\thiag\\Desktop\\TaskWise\\Backend\\Migrations\\TaskWiseDBContextModelSnapshot.cs",
-              "RelativeToolTip": "Migrations\\TaskWiseDBContextModelSnapshot.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAAAgwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T19:17:20.409Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 8,
@@ -107,7 +82,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "UserModel.cs",
               "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\TaskWise\\Backend\\Models\\UserModel.cs",
               "RelativeDocumentMoniker": "Models\\UserModel.cs",
@@ -119,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TasksModel.cs",
               "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\TaskWise\\Backend\\Models\\TasksModel.cs",
               "RelativeDocumentMoniker": "Models\\TasksModel.cs",
@@ -155,7 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "LoginModel.cs",
               "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\TaskWise\\Backend\\Models\\LoginModel.cs",
               "RelativeDocumentMoniker": "Models\\LoginModel.cs",
@@ -167,7 +142,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "UserRegisterModel.cs",
               "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\TaskWise\\Backend\\Models\\UserRegisterModel.cs",
               "RelativeDocumentMoniker": "Models\\UserRegisterModel.cs",
@@ -175,11 +150,36 @@
               "RelativeToolTip": "Models\\UserRegisterModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T19:04:26.298Z"
+              "WhenOpened": "2025-05-05T19:04:26.298Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "20250505192318_TaskWiseSecondMigration.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\TaskWise\\Backend\\Migrations\\20250505192318_TaskWiseSecondMigration.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250505192318_TaskWiseSecondMigration.cs",
+              "ToolTip": "C:\\Users\\thiag\\Desktop\\TaskWise\\Backend\\Migrations\\20250505192318_TaskWiseSecondMigration.cs",
+              "RelativeToolTip": "Migrations\\20250505192318_TaskWiseSecondMigration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T19:23:18.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaskWiseDBContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\TaskWise\\Backend\\Migrations\\TaskWiseDBContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\TaskWiseDBContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\thiag\\Desktop\\TaskWise\\Backend\\Migrations\\TaskWiseDBContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\TaskWiseDBContextModelSnapshot.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T19:17:20.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "UserLoginModel.cs",
               "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\TaskWise\\Backend\\Models\\UserLoginModel.cs",
               "RelativeDocumentMoniker": "Models\\UserLoginModel.cs",
